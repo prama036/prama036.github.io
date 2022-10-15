@@ -1,0 +1,532 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.body{
+    background: #111111;
+    display: flex;
+    flex-direction: static;
+}
+
+.subhead{
+    font-size: 27px;
+    FONT-WEIGHT: 600;
+}
+
+.logoimg{
+    position: absolute;
+    top: 100px;
+    left: 12px;
+}
+.logotxt{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(43, 43, 43);
+}
+.team{
+    position: absolute;
+    top: 500px;
+    left: 1020px;
+    display: flex;
+    flex-direction:row;
+}
+
+.walle{
+    top: 820px;
+    position: absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 30px 0 30px;
+    margin: 0 220px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wallebody{
+    padding: 30px 0px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallehead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(255, 204, 64);
+}
+.walleinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(255, 220, 125);
+}
+.wallebutt {
+    background-color: #ffe448;
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(61, 61, 61);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+.walleimg{
+    position: relative;
+    padding: 35px 0 34px 254px;
+}
+
+
+.httyd{
+    top: 1611px;
+    position: absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 30px 0 30px;
+    margin: 0 220px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.httydbody{
+    padding: 30px 0px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.httydhead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:#d84949;
+}
+.httydinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16.5px;
+    font-weight:700;
+    color:#d84949;
+}
+
+.httydbutt {
+    background-color: #d84949;
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(240, 240, 240);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.httydimg{
+    position: relative;
+    padding: 30px 0 30px 7px;
+}
+
+
+.cars{
+    top: 2390px;
+    position: absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 30px 0 30px;
+    margin: 0 220px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.carsbody{
+    padding: 30px 0px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carshead{
+    padding: 5px 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(250, 76, 76);
+}
+.carsinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(253, 110, 110)
+}
+
+.carsbutt {
+    background-color: #ff3838;
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.carsimg{
+    position: relative;
+    padding: 30px 0 30px 310px;
+}
+
+.coco{
+    top: 3170px;
+    position: absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 30px 0 30px;
+    margin: 0 220px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cocobody{
+    padding: 30px 0px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cocohead{
+    padding: 5px 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(83, 52, 255);
+}
+.cocoinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(108, 142, 255);
+}
+
+.cocobutt {
+    background-color: rgb(65, 109, 255);
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cocoimg{
+    position: relative;
+    padding: 40px 0 30px 310px;
+}
+
+.fd{
+    top: 3960px;
+    position: absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 30px 0 30px;
+    margin: 0 220px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fdbody{
+    padding: 30px 0px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fdhead{
+    padding: 5px 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(34, 207, 255);
+}
+.fdinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(141, 209, 228);
+}
+
+.fdbutt {
+    background-color: rgb(100, 196, 223);
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.fdimg{
+    position: relative;
+    padding: 40px 0 30px 282px;
+}
+
+/* rata kanan */
+
+.moana{
+    top: 1225px;
+    left: 230px;
+    position:absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 285px 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.moanaimg{
+    position: relative;
+    padding: 30px 0 20px 30px;
+}
+
+.moanabody{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.moanahead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(1, 192, 218);
+}
+.moanainfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(151, 243, 255);
+}
+.moanabutt {
+    background-color: #3bc4ee;
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.frozen{
+    top: 780px;
+    left: 0px;
+    position:absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 285px 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.frozenimg{
+    position: relative;
+    padding: 30px 0 20px 30px;
+}
+
+.frozenbody{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.frozenhead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(253, 253, 253);
+}
+.frozeninfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+}
+.frozenbutt {
+    background-color: #3bc4ee;
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.zootopia{
+    top: 780px;
+    left: 0px;
+    position:absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 285px 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.zootopiaimg{
+    position: relative;
+    padding: 30px 0 20px 30px;
+}
+
+.zootopiabody{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.zootopiahead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(179, 228, 43);
+}
+.zootopiainfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(191, 218, 118);
+}
+.zootopiabutt {
+    background-color: rgb(172, 219, 43);
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(54, 54, 54);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.lego{
+    top: 790px;
+    left: 0px;
+    position:absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 212px 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.legoimg{
+    position: relative;
+    padding: 30px 0 20px 30px;
+}
+
+.legobody{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.legohead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(255, 222, 36);
+}
+.legoinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(255, 235, 122);
+}
+.legobutt {
+    background-color: rgb(255, 227, 65);
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(54, 54, 54);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bh{
+    top: 790px;
+    left: 0px;
+    position:absolute;
+    background-color: #202020;
+    border-radius: 60px;
+    padding: 0 253px 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.bhimg{
+    position: relative;
+    padding: 30px 0 20px 30px;
+}
+
+.bhbody{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.bhhead{
+    padding: 0 0 20px 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 30px;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+}
+.bhinfo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16.5px;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+}
+.bhbutt {
+    background-color: rgb(255, 101, 101);
+    border-radius: 10px;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.end{
+    position: absolute;
+    margin-top: 380px;
+}
